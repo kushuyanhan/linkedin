@@ -1,0 +1,28 @@
+{
+  "questions": [
+      {
+        "question": "how do you like android app development?"
+      },
+      {
+        "question": "what is intent?"
+      },
+      {
+        "question": "what is activity?"
+      },
+      {
+        "question": "what is content provider?"
+      },
+      {
+        "question": "what is notification?"
+      },
+      {
+        "question": "what is broadcast?"
+      },
+      {
+        "question": "what is listener?"
+      },
+      {
+        "question": "what is life cycle?"
+      }
+    ]
+}

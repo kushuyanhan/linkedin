@@ -1,0 +1,11 @@
+Want to push code remote to github from terminal:
+Go to your project folder
+Git init.
+Git add .
+Git commit -m “first commit”
+Git push //push to local git repository
+If want to push to github, follow the next steps:
+Go to github.com, create a repository called “your project name” and get the https link like https://github.com/kushuyanhan/test.git
+From terminal: git remote set-url origin https://kushuyanhan:24765rklxk@github.com/kushuyanhan/test.git
+Git push -u origin master
+Git remote -v     this is to check if remote is set up successfully
