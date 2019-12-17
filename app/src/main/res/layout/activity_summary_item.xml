@@ -5,22 +5,21 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     tools:context=".SummaryAdapter"
+    android:layout_margin="5dp"
     >
 
     <TextView
         android:id="@+id/item_question"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
+        android:layout_height="20dp"
+        android:background="@color/silver"
     />
 
     <TextView
         android:id="@+id/item_answer"
         android:layout_below="@id/item_question"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-
+        android:layout_height="30dp"
     />
 
 </RelativeLayout>

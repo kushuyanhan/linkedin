@@ -33,7 +33,7 @@ public class SummaryActivity extends AppCompatActivity {
         String[] answers = ans.split(",");
         String[] quesions = que.split(",");
 
-        for (int i = 0; i < answers.length; i++) {
+        for (int i = 1; i < answers.length; i++) {
             String a = answers[i];
             String q = quesions[i];
 
